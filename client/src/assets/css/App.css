@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Cinzel&display=swap');
+
+html, body{
+  margin: 0;
+  background-color: rgb(241, 237, 237);
+  background: linear-gradient(110deg, #f3f4f5 50%, #dcefff 50%);
+}
+nav{
+  min-height: 10vh;
+  background: linear-gradient(70deg, #f3f4f5 56%, #dcefff 44%);
+  z-index: 2;
+}
+.full-page{
+  min-height: 90vh;
+}
+.center{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*------------------------Home Page ------------------------------ */
+.home-page {
+  background: linear-gradient(110deg, #96c4cc 50%, #7cbaec 50%);
+}
+.home-div{
+  
+  text-align: center;
+  font-family: 'Charm', cursive;
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+/*------------------------------Sign in--------------------------------*/
+.signin-content{
+  margin: 0 10%;
+  width: 80%;
+  background-color: white;
+  border: 2px solid rgb(228, 215, 215);
+  box-shadow: 0 0 20px rgb(151, 149, 149);
+}
+.signin-image, .signin-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 10% 2.5%;
+  text-align: center;
+}
+.signin-form .form-group label,.signin-form .form-group input {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2% 0;
+}
+.signin-form .form-group label{
+  width: 10%;
+  font-size: 1.4rem;
+}
+.signin-form .form-group input{
+  width: 70%;
+}
+.input{
+  border: none;
+  border-radius: 0%;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(179, 59, 59);
+  width: 20%;
+  
+}
+
+.form-submit {
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid rgb(241, 238, 238);
+  box-shadow: 0 0 10px rgb(212, 204, 204);
+  width: 30% !important;
+  border-radius: 25px;
+  background-color: rgb(251, 249, 253);
+  margin: 5px 35%;
+  text-align: center;
+  font-size: 1rem;
+}
+.form-submit:focus{
+  background-color: rgb(235, 214, 214);
+  box-shadow: 0 0 20px rgb(172, 169, 169);
+}
+
+/*--------------------------------Sign up page -----------------------*/
+.signup-content{
+  margin: 0 10%;
+  width: 80%;
+  background-color: white;
+  border: 2px solid rgb(228, 215, 215);
+  box-shadow: 0 0 20px rgb(151, 149, 149);
+}
+.signup-image, .signup-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 10% 2.5%;
+  text-align: center;
+}
+.signup-form .form-group label,.signup-form .form-group input {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2% 0;
+}
+.signup-form .form-group label{
+  width: 10%;
+  font-size: 1.4rem;
+}
+.signup-form .form-group input{
+  width: 70%;
+}
+
+/*----------------------Contact-----------------------*/
+.contact_info_item{
+  background-color: white;
+  border: 2px solid rgb(228, 215, 215);
+  box-shadow: 0 0 20px rgb(151, 149, 149);
+  width: 25% !important;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contact_form{
+  margin: 15px 25% 0 25%;
+  width: 50%;
+  background-color: white;
+  border: 2px solid rgb(228, 215, 215);
+  box-shadow: 0 0 20px rgb(151, 149, 149);
+  text-align: center;
+}
+.contact_form_title{
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  
+}
+.contact_form_message{
+  border: 2px solid rgb(212, 210, 210) !important;
+  background-color: rgb(241, 238, 238);
+  border-radius: 15px;
+  font-size: 1.1rem;
+  padding: 5px 0 !important;
+  color: blueviolet;
+  font-weight: 600;
+  width: 60%;
+}
+*textarea:focus, *input:focus{
+  outline: none;
+}
+
+/*-----------------------About Page --------------------------*/
+.emp-profile form{
+  width: 75%;
+  background-color: white;
+  border: 2px solid rgb(228, 215, 215);
+  box-shadow: 0 0 20px rgb(151, 149, 149);
+
+}
+
+@media (max-width:991px){
+  .nav-item{
+    border:none;
+    margin: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+  }
+}
+ /*-----------Footer----------------*/
+ footer{
+   position:absolute;
+   bottom: 0;
+   right: 15px;
+   padding: 10px;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 25px;
+ }
+ footer a{
+   text-decoration: none;
+  color: rgb(102, 101, 101);
+  font-weight: 900;
+  font-family: 'Charm', cursive;
+  font-family: 'Cinzel', serif;
+  padding: 10px;
+ }
+
+
+nav ul li{
+  padding: 0 10px;
+  border: 1px groove rgb(134, 170, 62);
+  border-bottom: 4px groove rgb(134, 170, 62);
+  border-radius: 10%;
+  box-shadow: 5px 5px rgb(214, 213, 213);
+  margin: 0 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+nav ul li:hover{
+  opacity: 0.5;
+}
+nav ul li:active{
+  border: none;
+  border-bottom: 4px groove rgb(134, 170, 62);
+  background-color: rgb(214, 213, 213);
+  box-shadow: none;
+  transform: translateY(4px);
+}
